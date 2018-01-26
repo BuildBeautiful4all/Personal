@@ -1,0 +1,65 @@
+Bootstrap
+
+Advantages -->
+Disvantages-->
+jquery plugins are limited...
+
+//Grid System
+// grid 2d system of plane content
+  BT have 4 tiers of classes
+  bootstrap 3
+  xs==> mobiles(320px>mobiles>768px)
+  sm==> tablets(768px>tablets>992px)
+  md==> desktop(992px>desktop>1200px)
+  lg==> large desktop(>1200px)
+  ______________________________
+  bootstrap 4 five grid tiers
+  xl==> large desktop(>1200px)
+  lg==> desktop(992px>desktop>1200px)
+  md==> tablets(768px>tablets>992px)
+  sm==> mobiles(576px>mobiles>768px)
+  xs==> (320px>::>576px)
+
+
+______________________________
+bootstrap3 features tiers
+col-lg-3 col-md-4 col-sm-6 col-xs-12
+|| 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10, 11 , 12 ||
+col-lg-3 ie, each div take 3 small portions in one line with 12 total portions
+col-md-4 ie, each div take 4 small portions in one line with 12 total portions
+col-sm-6 ie, each div take 6 small portions in one line with 12 total portions
+col-xs-12 ie, each div take 12 small portions in one line with 12 total portions
+
+
+1. extra small -.col-xs -- devices less than 768px
+2. small -.col-sm --devices greater than or equal to 768px
+3. medium - .col-md -- devices greater than or equal to 992px
+4. large - .col-lg -- devices greater than or equal to 1200px
+
+
+mobile s 320px
+mobile m 375px
+mobile l 425px
+tablet 768px
+laptop 1024px
+
+
+7.==========================================>
+offsetting columns
+Offsets are used for spacing elements in the responsive grid.
+if we do as col-lg-offset-6 ie, till 1200px a margin equivalent
+to a div and this div contain 6 sections from 12 sections in a line
+You can define an offset this way : col-[breakpoint]-offset-[number of colums]
+
+ 8. fixed and fluid Layouts=============================>
+apply fluid in container div,container div take by default margin
+but after apply this fluid margin become 0
+
+
+9. columns within columns =====================>
+div1(50%)                            div2(50%)
+div11(50% of above 50%)             div21(50% of above 50%)
+div12(remaining 50% is also of above 50%)    div22(remaining 50% is also of above 50%)
+
+10. rows=============>
+BT support multiple rows
